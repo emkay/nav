@@ -7,7 +7,7 @@ module.exports = function (parentSelector, items) {
     var parent = document.querySelector(parentSelector);
     parent.appendChild(nav);
 
-    var navList = new Dq({container: 'nav-list', parent: document.querySelector('nav.nav-list')});
+    var navList = Dq({container: 'nav-list', parent: document.querySelector('nav.nav-list')});
 
     var makeListItem = function (item) {
         var link = document.createElement('a');

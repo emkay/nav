@@ -7,7 +7,7 @@ Make a nav
 
 ## Example
 
-```
+```javascript
 var nav = require('nav');
 
 var items = [
